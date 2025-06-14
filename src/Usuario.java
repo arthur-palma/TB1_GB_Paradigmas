@@ -5,9 +5,7 @@ public abstract class Usuario {
     private String nome;
 
 
-    public String exibirTipoUsuario() {
-        return "";
-    }
+    public abstract String exibirTipoUsuario();
 
     public Usuario(long id, String nome) {
         this.id = id;
